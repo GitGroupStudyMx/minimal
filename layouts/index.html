@@ -1,17 +1,27 @@
 {{ partial "header" . }}
 
 <main>
+    <div class="text-center">
+      <small> Powered by </small><br>
+      <a href="https://education.github.com/students/experts">
+        <img src="img/campus-experts.png" width="50%"/></a><br>
+      <h1>G I T &nbsp; G R O U P &nbsp; S T U D Y</h1>
+      <a href="https://githubcampus.expert/carlogilmar/">
+        <img src="img/carlogilmar.png" width="30%"/>
+      </a>
+      <a href="https://github.com/GitGroupStudyMx">
+        <img src="img/groupstudy.png" width="38%"/>
+      </a><br>
 
-    <div class="intro">
+        <h3> Aprendizajes Compartidos </h3>
+        <h4> UPIICSA-IPN, CDMX, 🇲🇽 </h4>
 
-        {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
-
-        <h1>{{ .Site.Title }}</h1>
-
-        <h2>{{ markdownify .Site.Params.Description }}</h2>
+        <strong> ¿Tienes alguna idea, propuesta, o iniciativa?
+          <a href="https://twitter.com/carlogilmar">
+            ¡Contáctame por Twitter!</a>
+        </strong>
 
     </div>
-
 </main>
 
 {{ partial "footer" . }}
